@@ -15,9 +15,9 @@ function checkPrime(number) {
 }
 
 
-function table(n) {
-    var rows = n;
-    var cells = n;
+function table(number) {
+    var rows = number;
+    var cells = number;
     document.write("<table>");
     for (i = 1; i <= rows; i++) {
         document.write("<tr>");
